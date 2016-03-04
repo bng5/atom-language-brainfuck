@@ -1,0 +1,22 @@
+{
+  "name": "language-brainfuck",
+  "main": "./lib/language-brainfuck",
+  "version": "0.0.0",
+  "description": "brainfuck language support in Atom",
+  "keywords": [
+    "brainfuck"
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-brainfuck:toggle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bng5/atom-language-brainfuck.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

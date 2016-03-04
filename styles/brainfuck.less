@@ -1,0 +1,27 @@
+//@import "ui-variables";
+@import "syntax-variables";
+
+atom-text-editor::shadow .brainfuck {
+  color: @syntax-gutter-text-color;
+  font-style: italic;
+}
+
+atom-text-editor::shadow .source.operator.brainfuck {
+  font-style: normal;
+}
+
+atom-text-editor::shadow .source.operator.alter.brainfuck {
+  color: @syntax-color-value;
+}
+
+atom-text-editor::shadow .source.operator.while.brainfuck {
+  color: @syntax-color-variable;
+}
+
+atom-text-editor::shadow .source.operator.move.brainfuck {
+  color: @syntax-color-method;
+}
+
+atom-text-editor::shadow .source.operator.char.brainfuck {
+  color: @syntax-color-value;
+}

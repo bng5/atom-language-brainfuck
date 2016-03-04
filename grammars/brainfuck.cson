@@ -1,0 +1,29 @@
+'name': 'brainfuck'
+'scopeName': 'source.brainfuck'
+'fileTypes': [
+  'b'
+  'bf'
+]
+
+'patterns': [
+  {
+    'comment': 'Increment and decrement operators'
+    'name': 'source.operator.alter.brainfuck'
+    'match': '[\\+\\-]'
+  }
+  {
+    'comment': 'Move pointer'
+    'name': 'source.operator.move.brainfuck'
+    'match': '[<>]'
+  }
+  {
+    'comment': 'While loop'
+    'name': 'source.operator.while.brainfuck'
+    'match': '[\\[\\]]'
+  }
+  {
+    'comment': 'Get or print char'
+    'name': 'source.operator.char.brainfuck'
+    'match': '[,.]'
+  }
+]
